@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "service": "Backend Microservice",
-        "message": "Backend is running successfully"
+        "message": "Backend v2 is running successfully"
     })
 
 @app.route("/health")
